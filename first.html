@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="" class="logo">JADAWEL REAL ESTATE</a>
+      <ul>
+        <li class="active"><a href="#">HOME</a></li>
+        <li><a href="main2.html">PROPERTY</a></li>
+        <li><a href="#">ADMIN</a></li>
+
+      </ul>
+    </header>
+    <div class="container">DISCOVER  YOUR  PERFECT  HOME
+    </div>
+    <div class="feature">
+        <div class="word">WE PROMISE YOU</div>
+        <div class="word">ASSURITY</div>
+        <div class="word">RELEVANCE</div>
+        <div class="word">AND THE <b>BEST</b> DEALS</div>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header=document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+*{
+    margin: 0;padding: 0;
+}
+header{
+    height:9vh;
+    width:100vw;
+    position: fixed;
+    display: flex;
+    float: right;
+    justify-content: space-between;
+}
+header .logo{
+    margin: 15px;
+    color: rgb(106, 210, 255);
+    text-decoration: none;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px black;
+    font-size: 4vh;
+    letter-spacing: 3px;
+}
+header.sticky{
+    padding: 5px 5px;
+    /* background: rgb(14, 20, 40); */
+    backdrop-filter: blur(40px);
+    background-color: hsl(0,0%,0% / 50%);
+}
+.container{
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 230px;
+    font-size: 6vh;
+    color:aliceblue;
+}
+/* .feature{
+    position: relative;
+    color: rgb(72, 185, 234);
+     height: 30vh;
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 1px;
+    filter:contrast(10);
+}
+.word{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:rgb(30, 137, 183);
+    transform: translate(-50%,-50%);
+    animation: switch 9s infinite steps(5,end);
+    min-width: 100%;
+    margin: auto;
+}
+.word:nth-child(1){
+    animation-delay: -7s;
+}
+.word:nth-child(2){
+    animation-delay: -5s;
+}
+.word:nth-child(3){
+    animation-delay: -3s;
+}
+.word:nth-child(4){
+    animation-delay: -1s;
+}
+@keyframes switch{
+    0%,
+    5%,
+    100%{
+        filter: blur(0px);
+        opacity: 1;
+    }
+    50%,
+    80%
+    {
+        filter: blur(180px);
+        opacity: 0;
+
+    }
+} */
+body{
+    background-image: linear-gradient(rgba(2, 2, 2, 0.5),rgba(0, 0, 0, 0.5)) ,url('home3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+ ul li{
+     display: inline-block;
+    font-size: 3.3vh;
+    font-weight: 100;
+    padding: 0.9em;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(243, 240, 240);
+    padding: 0.7em;
+    letter-spacing: 1px;
+
+}
+ ul li a:hover{
+     background-color: rgb(12, 9, 21);
+     transition: 0.4s ease;
+ }
+ li.active a{
+    color:rgb(106, 210, 255);
+  }

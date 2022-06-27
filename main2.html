@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/25d18dfac0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- PLEASE RUN THE CODE WITH INTERNET CONNECTION -->
+    <div class="container">
+        <div class="object1"><br>
+            <ul>
+                <a href="#" class="logo"> JADAWEL REAL ESTATE</a>
+                <li><a href="#">ADMIN</a></li>
+              <li><a href="#">PROPERTY</a></li>
+              <li class="active"><a href="first.html">HOME</a></li>
+              
+      
+            </ul></div>
+        <div class="object2"> <img src="final.jpg"></div>
+        <div class="object3"> <img src="final3.jpg"></div>
+        <div class="object4"> <img src="final2.jpg"></div>
+        <div class="sidebar"> 
+            <div class="location">
+        &nbsp;&nbsp;&nbsp;  <i class="fa-solid fa-dollar-sign"></i> <b> 4000 </b>
+        <i class="fa-solid fa-location-dot"></i><b>  543 Runwals ,  Powai<br></br> </b>
+        <button onclick="toggle()" class="btn" id="bthn"><i class="fa-solid fa-heart"></i></button> 
+        <button onclick="toggle2()" class="btn2" id="bthn2">
+        <i class="fa-solid fa-link fa-1x"></i><h9>Share</h9>
+        
+        </button>
+    
+        </div>
+        <i class="fa-solid fa-restroom"></i><b>&nbsp; RESTROOM : 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <i class="fa-duotone fa-bed-empty"></i>  BEDROOM : 4</b>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Area : &nbsp;1.024 ft<sup>2</sup></sup></b>    
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <span class="fa fa-star checked"> </span>
+            <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked" ></span>
+           <span class="fa fa-star"></span>
+           <span class="fa fa-star"></span>
+        </br><i class="fa-solid fa-person-swimming"></i><b> Swimming Area</b><i class="fa-solid fa-person-walking"></i><b> Jogging Track </b>
+        <div class="skill"><li><h4>Area Security</h4>
+                
+            <span class="bar"><span class="area"></span></span></li></div>
+            <div class="disp">
+                <b> DESCRIPTION:</b>
+   <b>The location is nearby station road ,animal friendly and has a nice scenic view.</b></div>  
+             </div>
+             <div class="object5">
+                <img src="profile.jpg">
+                <div class="info"><h4>NELSON ANDREW</h4>
+            <h7>Rental Agent - 10yrs</h7><br><i class="fa-solid fa-envelope"></i><h8>  *****rew@gmail.com </h8>
+            
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;   &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-star fa-0.5x checked"> </span>
+                <span class="fa fa-star fa-0.5x checked" ></span>
+               <span class="fa fa-star fa-0.5x checked" ></span>
+               <span class="fa fa-star fa-0.5x checked"></span>
+               <span class="fa fa-star fa-0.5x "></span>
+               <div class="circle">
+                   <b><h17>Analytics Area</h17></b><br>
+
+                <div class="ui-widgets">
+                    <div class="labels"><h7> Short - term Rent Occupancy</h7></div>
+                    <div class="labels2"><h7>$5,067 <br>&nbsp;&nbsp;&nbsp;monthly&nbsp;estimated &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;profit</h7></div>
+
+                </div>
+               </div>
+               </div>
+             </div>
+        <script>
+
+            var btnvar = document.getElementById('bthn')
+       
+           function toggle(){
+              if (btnvar.style.color == "red"){
+               btnvar.style.color = "grey";
+               alert('Removed from favaourites');
+              }
+              else{
+               btnvar.style.color = "red";
+               alert('Added to favourites');
+              }
+           }
+
+           var bthn2var = document.getElementById('bthn2')
+           function toggle2(){
+               if(bthn2var.style.color=="black"){
+                bthn2var.style.color="brown";
+                alert("LINK IS: http://127.0.0.1:5500/main2.html");
+                thn2var.style.color="black";
+                }
+                else{
+                    bthn2var.style.color="black";
+                }
+           }
+       </script>
+    </div>
+</body>
+</html>
